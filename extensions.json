@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "solidity-solhint",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "akamud.vscode-latex",
+    "mhutchie.git-graph",
+    "vscode-icons-team.vscode-icons"
+  ]
+}

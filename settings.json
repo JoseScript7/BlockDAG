@@ -1,0 +1,13 @@
+{
+  "solidity.linting.enabled": true,
+  "solidity.linting.remappings": [
+    "@openzeppelin=./node_modules/@openzeppelin"
+  ],
+  "editor.formatOnSave": true,
+  "solidity.compileUsingRemoteVersion": "v0.8.0+commit.c7dfd78e",
+  "solidity.defaultCompiler": "remote",
+  "solidity.enableInlineReferences": true,
+  "solidity.enableOptimization": true,
+  "solidity.optimizerRuns": 200,
+  "solidity.evmVersion": "istanbul"
+}

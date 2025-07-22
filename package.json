@@ -1,40 +1,31 @@
 {
-  "name": "yauzl",
-  "version": "2.10.0",
-  "description": "yet another unzip library for node",
+  "name": "RWAChain_Project",
+  "version": "1.0.0",
+  "description": "A project for managing Real World Assets (RWA) on the blockchain.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js",
-    "test-cov": "istanbul cover test/test.js",
-    "test-travis": "istanbul cover --report lcovonly test/test.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo \"Building the project...\"",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thejoshwolfe/yauzl.git"
+    "url": "git+https://github.com/yourusername/RWAChain_Project.git"
   },
   "keywords": [
-    "unzip",
-    "zip",
-    "stream",
-    "archive",
-    "file"
+    "blockchain",
+    "real-world-assets",
+    "smart-contracts"
   ],
-  "author": "Josh Wolfe <thejoshwolfe@gmail.com>",
+  "author": "Your Name",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thejoshwolfe/yauzl/issues"
-  },
-  "homepage": "https://github.com/thejoshwolfe/yauzl",
   "dependencies": {
-    "fd-slicer": "~1.1.0",
-    "buffer-crc32": "~0.2.3"
+    "ethers": "^5.0.0",
+    "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "bl": "~1.0.0",
-    "istanbul": "~0.3.4",
-    "pend": "~1.2.0"
-  },
-  "files": [
-    "index.js"
-  ]
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.0"
+  }
 }

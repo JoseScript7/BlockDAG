@@ -1,0 +1,8 @@
+packages:
+  - contracts
+  - frontend
+  - backend-services
+  - analytics
+  - docs
+  - infra
+  - tests

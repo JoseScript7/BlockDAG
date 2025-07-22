@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "contracts/*",
+    "frontend",
+    "backend-services/*",
+    "analytics/*"
+  ],
+  "version": "1.0.0"
+}
